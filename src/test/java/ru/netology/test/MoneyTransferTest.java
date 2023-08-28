@@ -2,11 +2,11 @@ package ru.netology.test;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import Page.DashboardPage;
-import Page.LoginPage;
+import page.DashboardPage;
+import page.LoginPage;
 
 import static com.codeborne.selenide.Selenide.open;
-import static Data.DataGenerator.*;
+import static data.DataGenerator.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class MoneyTransferTest {

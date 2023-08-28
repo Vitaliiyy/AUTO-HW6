@@ -1,6 +1,6 @@
-package Page;
+package page;
 
-import Data.DataGenerator;
+import data.DataGenerator;
 import com.codeborne.selenide.SelenideElement;
 
 
